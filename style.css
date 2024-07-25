@@ -9,3 +9,7 @@ body{
     background-color: var(--cor-de-fundo);
     color: white;
 }
+
+.principal{
+    background-image: url("fundo2.png");
+}
