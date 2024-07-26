@@ -11,5 +11,11 @@ body{
 }
 
 .principal{
-    background-image: url("fundo2.png");
+    background-image: url("Design\ sem\ nome.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
 }
