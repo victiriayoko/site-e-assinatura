@@ -1,7 +1,7 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
+    --botao-lilas: #81638b;
     --cor-de-fundo: #00030C;
 }
 
@@ -17,5 +17,22 @@ body{
 }
 
 .container {
-    height: 100vh;
+    height: 1200vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
+
+.container__botao {
+    background-color: var(--botao-lilas);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    cursor: pointer;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+}
+
