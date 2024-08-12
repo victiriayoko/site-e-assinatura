@@ -15,14 +15,12 @@ body{
     font-weight: 400;
 }
 
-.principal{
+
+
+.corpo{
     background-image: url("Design\ sem\ nome.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    align-items: center;
-    text-align: center;
 }
-
 .container {
     height: 120vh;
     display: grid;
@@ -60,6 +58,7 @@ body{
 
 .container__imagem {
     margin: 0 5em;
+    
 }
 
 .container__caixa {
@@ -177,5 +176,9 @@ body{
     color: var(--cor-de-fundo);
 }
 
+.logo-cabecalho{
+    width: 10%;
+    justify-content: left;
+}
 
 
